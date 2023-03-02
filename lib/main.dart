@@ -7,6 +7,6 @@ import 'common/bloc/activityBloc/activity_bloc.dart';
 void main() {
   runApp(BlocProvider(
     create: (context) => ActivityBloc(),
-    child: App(),
+    child: const App(),
   ));
 }
