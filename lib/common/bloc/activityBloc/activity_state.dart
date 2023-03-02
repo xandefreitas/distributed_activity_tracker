@@ -5,7 +5,6 @@ import 'activity_event.dart';
 abstract class ActivityState extends Equatable {
   ActivityState();
 
-  @override
   List<Object> get props => [];
 }
 
